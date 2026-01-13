@@ -1,16 +1,22 @@
 # Environment
 .env
 
-# Node
+# Root node modules (if any)
 node_modules/
+
+# Frontend (Vite)
+chat-app-frontend/node_modules
+chat-app-frontend/dist
+chat-app-frontend/.env
+
+# Backend (Node)
+chat-app-backend/node_modules
+chat-app-backend/.env
+
+# Logs
 npm-debug.log
 yarn.lock
 package-lock.json
 
-# Vite
-frontend/dist
-frontend/.env
-
-# Backend
-backend/node_modules
-backend/.env
+# OS
+.DS_Store
