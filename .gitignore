@@ -1,0 +1,16 @@
+# Environment
+.env
+
+# Node
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Vite
+frontend/dist
+frontend/.env
+
+# Backend
+backend/node_modules
+backend/.env
